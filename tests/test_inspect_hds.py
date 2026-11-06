@@ -101,6 +101,16 @@ class InspectHdsTest(unittest.TestCase):
         self.assertEqual(result["title_allocations_observed"], 1)
         self.assertFalse(result["native_readiness_checked"])
 
+    def test_hidden_runtime_folders_are_not_projects(self):
+        folder, _ = self.collection("runtime-only")
+        self.obj(folder / "single_projects/.provider_jobs/state.json", {"running": False})
+        self.obj(folder / "single_projects/.scratch/plan.json", {"temporary": True})
+        self.obj(folder / "batch_projects/.worker_cache/batch.json", {"temporary": True})
+        result = MODULE.inspect(self.app, folder)["collection"]
+        self.assertEqual(result["project_folders"], 0)
+        self.assertEqual(result["plan_files"], 0)
+        self.assertEqual(result["batch_folders"], 0)
+
 
 if __name__ == "__main__":
     unittest.main()

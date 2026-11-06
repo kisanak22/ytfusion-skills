@@ -68,7 +68,10 @@ def directories(path):
     if not path.is_dir() or path.is_symlink():
         return []
     return sorted(
-        (item for item in path.iterdir() if item.is_dir() and not item.is_symlink()),
+        (
+            item for item in path.iterdir()
+            if not item.name.startswith(".") and item.is_dir() and not item.is_symlink()
+        ),
         key=lambda item: item.name,
     )
 
