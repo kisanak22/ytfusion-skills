@@ -1,0 +1,4 @@
+interface:
+  display_name: "HDS Home Production"
+  short_description: "Prepare home channels and run HDS production"
+  default_prompt: "Use $hds-home-production to inspect my HDS setup and help me prepare channels or continue production."

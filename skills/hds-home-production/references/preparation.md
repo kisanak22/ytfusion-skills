@@ -1,0 +1,100 @@
+# Master, channels, sources and title stock
+
+## Create or extend
+
+For a new Master, use the installed Folder HDS initialization flow at the chosen
+new location. Keep credentials and device selection local. Do not manually copy
+an existing collection marker into a supposedly new collection.
+
+For an existing Master, read its current ledger, matrices and reference manifests.
+Preserve valid work and user edits. An old provisioning script can describe a
+past wave without being safe to rerun. Check its target, assumptions and revision
+before using it. Do not impose one owner's setup on another user.
+
+Use a channel matrix containing stable IDs, language/locale, broad topic family,
+duration band, format, selected profiles/references, title target and collection
+assignment. New requests can reuse profile configurations without requiring a
+new research project for every channel.
+
+Useful starting families include interior/decor, garden/outdoor, architecture,
+small-home layout, cozy/character homes and nature-connected spaces. They are
+broad starting points, not mandatory partitions. Assess actual demand in the
+intended language rather than claiming low competition or high RPM without data.
+
+Keep each channel's duration in its selected band. Do not use source video
+duration as an output limit. Public channel names can be neutral across niches,
+with a home-related comparison group if the user wants a naming experiment.
+Profile labels, public names, handles and upload destinations remain distinct.
+
+## Independent source roles
+
+Title sources, content visuals, thumbnail packaging and narration references may
+all come from different channels, languages or niches.
+
+- Titles: preserve the user's selection criteria. When using native Hot/High,
+  verify the tool's evidence and timestamp. Distinguish lifetime-average VPH
+  from recent-hour activity. Include real design publishers and studios when
+  suitable; do not restrict the pool to AI channels.
+- Visuals: choose credible design, composition, light, material and spatial scale.
+  Source popularity does not establish visual quality.
+- Thumbnails: inspect packaging as a repeatable series, not a random collage of
+  individually attractive pictures.
+- Narration: look for opening tension, curiosity, progression, explanation,
+  re-hooks and payoff. References can come from history, facts or other strong
+  storytelling niches. Transfer narrative techniques into an original home topic.
+
+Keep source URL, channel/publisher, video/frame or image identifier, capture
+context and editorial fit. Label candidates until actually reviewed. Distinguish
+illustrative design from documented facts about a real property.
+
+## Visual and thumbnail curation
+
+Default to at least six deliberately chosen images per content board, unless
+the user chooses otherwise. Compare boards side by side: variation must be
+visible in materials, palette, scale, spatial language and shot focus. More
+folders do not establish variety.
+
+Include establishing views, medium spatial relationships and useful details.
+Preserve compact homes, modest cottages and dry gardens rather than turning
+every subject into a large contemporary luxury property.
+
+A thumbnail board normally holds six references with one coherent packaging
+style. For text-bearing examples, keep typography, placement and treatment
+consistent, often from one source series. Clean series can be text-free while
+maintaining composition, lighting and focal hierarchy. Match the native layout
+to the chosen series. Do not mix incompatible packaging to fill a quota.
+
+Assign content and thumbnail boards independently. Reuse them across suitable
+profiles. Multi-idea/room formats can rotate boards by chapter/section, including
+decor and architecture. Signature plus variation preserves a main vocabulary
+while rotating supporting boards. A single-property tour defaults to consistent
+property identity. Respect an intentional user override rather than enforcing
+universal rotation or single-board rules.
+
+Store reference files through native library mechanisms and verify resolution
+at the destination. Research links and third-party reference media stay with the
+user's local library; they are not automatically assets for public redistribution.
+
+## Titles and brief context
+
+Start with the requested title count; 50 titles per channel is a useful default,
+not a fixed size for every user. For a full wave, complete requested title stock
+before preparing all Batch, unless incremental delivery is requested.
+
+Reuse accepted titles and sources across compatible channels, including exact
+matches. Review unintended repetition inside one channel/Batch. Record separate
+allocations using collection identity, profile ID, Batch ID and a stable
+allocation/slot ID. A legacy normalized-title dictionary must not lose an
+earlier allocation when text is reused.
+
+If a rewrite tool requires distinct outputs across targets in a single job,
+reuse accepted exports or process another job; do not turn that constraint into
+a requirement for globally unique titles.
+
+Use trend years only where appropriate. Honor the user's year distribution,
+keep one primary trend year per channel when requested, and preserve historical
+events and factual dates. Evergreen titles need not acquire a year.
+
+Carry title promises into actual production briefs: counts, scale, style,
+language, duration, topic mechanism and source context. A companion note is not
+automatically injected into a runtime brief. Verify the brief HDS actually uses.
