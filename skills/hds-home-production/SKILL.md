@@ -43,8 +43,10 @@ Resolve that script path relative to this skill, regardless of the working
 directory. An omitted collection follows the saved installation selection or
 the native default. Invalid or missing saved selections are reported, never
 silently replaced. The helper neither imports the application nor validates
-native readiness. No shell access is required when equivalent native UI
-inspection is available.
+native readiness. Matching Batch IDs and folder names alone does not establish
+that the installed app can open them; use the native verification described in
+[collections](references/collections.md) after preparing or renaming Batch. No
+shell access is required when equivalent native UI inspection is available.
 
 If the app or collection has not been identified, do useful independent work
 and ask only for the missing location. A new device need not already have a

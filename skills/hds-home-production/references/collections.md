@@ -26,16 +26,37 @@ An optional naming convention is:
     Production 01/
       COL-001-EN-R/
         channel_profiles/home_en_001/
-        batch_projects/home_en_001_DEC_w01/
+        batch_projects/home_en_001_dec_w01/
 
 Use names agreed with the user. If global collection numbers are used, continue
 them across later production-group folders instead of resetting to 001. Keep
-codes short and distinguish folder labels from native IDs. Niche labels can sit
-on Batch names; example codes are DEC, GRD, ARC, SML, COZ and NAT.
+codes short and distinguish display labels from native IDs. A Batch display
+name may retain a niche tag such as DEC, GRD, ARC, SML, COZ or NAT while its
+native key follows the installed application's rules.
+
+## Native Batch keys and readback
+
+Obtain new keys through native creation or the installed Batch route's actual
+sanitizer. Do not substitute a generic filesystem sanitizer: HDS storage's
+`canonical_storage_key` can preserve case while the app binding's
+`_sanitize_project_name` lowercases it. In that installation, a display name
+`home_en_001_DEC_w01` uses the native key/folder `home_en_001_dec_w01`. Inspect
+the current binding instead of assuming every HDS version uses the same rule.
 
 Do not rename an existing Batch folder as cosmetic text: its folder can be the
-native Batch ID. Use a supported operation and synchronize required metadata
-only while idle, preserving projects, history, results and source context.
+native Batch ID. Diagnose existing owners against their collection UUID, folder,
+metadata ID and route normalization before changing anything. Use supported
+operations while idle and synchronize the required metadata, manifests, title
+contexts and tracking paths, preserving projects, history, results and choices.
+Do not reset a Batch or weaken ownership checks to make a mismatch disappear.
+
+After creation or an identity/path change, open the affected Batch through the
+installed UI or authenticated native endpoint. A controlled endpoint check must
+use the same sanitizer and admitted collection state/workflow as the installed
+app; a permissive fallback reader can hide an invalid stored owner ID. Check the
+returned key, profile, titles and options, and confirm that opening alone does
+not rewrite the saved Batch. Keep this readback separate from generation,
+artistic review and destination-device verification.
 
 The same profile ID/name can exist in different collections with different
 settings. Inside one collection it identifies a shared configuration. Combined

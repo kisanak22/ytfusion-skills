@@ -28,7 +28,10 @@ authorize application source changes, repository publishing or sending messages.
 
 The initial package is structurally validated and its read-only diagnostic
 helper has stdlib fixture tests. A live read-only diagnostic can verify the
-current installation's observable metadata and file counts.
+current installation's observable metadata and file counts. Its ID-mismatch
+count compares stored IDs with folder names; zero does not prove that those IDs
+follow the installed app's route normalization. Native Batch opening must follow
+the [collection readback procedure](collections.md).
 
 These checks do not establish live generation, provider quality, Claude Code
 execution, another HDS edition, another OS or another device. Record those
