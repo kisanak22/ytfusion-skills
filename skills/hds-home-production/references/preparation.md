@@ -55,14 +55,18 @@ visible in materials, palette, scale, spatial language and shot focus. More
 folders do not establish variety.
 
 Include establishing views, medium spatial relationships and useful details.
-Preserve compact homes, modest cottages and dry gardens rather than turning
-every subject into a large contemporary luxury property.
+Keep quiet or softly lit frames when the layout, materials or indoor–outdoor
+relationship reads clearly. Similar angles can reinforce a coherent style.
+Remove weaker repeats from a large pool or look for stronger replacements when
+the board is near its reference count target. Preserve the scale and character
+of compact homes, modest cottages and dry gardens.
 
 A thumbnail board normally holds six references with one coherent packaging
-style. For text-bearing examples, keep typography, placement and treatment
-consistent, often from one source series. Clean series can be text-free while
-maintaining composition, lighting and focal hierarchy. Match the native layout
-to the chosen series. Do not mix incompatible packaging to fill a quota.
+style. Compare candidates at thumbnail card size and favor a focal subject that
+reads immediately. Keep typography, placement and treatment consistent for
+text-bearing references, often from one source series. Text-free series can
+cohere through composition and light. Choose additional references for their
+fit with the series.
 
 Assign content and thumbnail boards independently. Reuse them across suitable
 profiles. Multi-idea/room formats can rotate boards by chapter/section, including
