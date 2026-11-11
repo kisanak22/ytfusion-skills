@@ -17,6 +17,8 @@ Respond in the user's language.
   useful inputs and examples. A clear task can proceed without a menu.
 - For a new Master, channel setup, reference curation or more title stock, read
   [preparation](references/preparation.md).
+- For Midjourney moodboard codes, see the manual setup and profile assignment
+  procedure in [preparation](references/preparation.md#midjourney-moodboard-codes).
 - For collection allocation, portable naming, capacity or moving work, read
   [collections](references/collections.md).
 - For brief, Plan, media generation, resume or progress, read

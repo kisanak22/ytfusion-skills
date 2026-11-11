@@ -79,6 +79,47 @@ Store reference files through native library mechanisms and verify resolution
 at the destination. Research links and third-party reference media stay with the
 user's local library; they are not automatically assets for public redistribution.
 
+## Midjourney moodboard codes
+
+**Manual setup.** In HDS Referensi Gambar, open the board, click **Unduh semua
+gambar**, and allow related downloads if Chrome asks. Open **Midjourney** and
+use **Salin nama**. In [Midjourney Moodboards](https://www.midjourney.com/moodboards),
+create the board and upload the files manually. Paste one short code or
+`--p CODE` into the matching HDS board. Prefer the version code shown on a
+submitted prompt for repeatable results. An `m…` ID follows the latest board
+version. Midjourney's [moodboard guide](https://docs.midjourney.com/hc/en-us/articles/39193335040013-Moodboards)
+explains both formats. The user performs actions on Midjourney; the agent can
+guide them and handle the local HDS steps. Follow the
+[Midjourney Terms](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service).
+
+**Apply codes in HDS.** Resolve the target collections and profile IDs from
+the user's Master mapping or the independent collection's native assignments.
+Use board IDs and purpose, then check the active-image fingerprint if importing
+a code from another collection. A ready `MJ` badge means the code matches the
+board's saved active set. A missing code or **MJ · Gambar berubah** needs review.
+The badge does not verify the account's access to the code. If the installed app
+predates the board code panel, ask for a user-supplied board-to-code mapping;
+never infer codes from filenames or invent a storage format.
+
+1. Read the native content assignment and the thumbnail assignment for each
+   profile. Use its signature board first and supporting boards in their
+   configured order. Follow an explicit Master mapping when it assigns MJ
+   codes differently. Preserve the profile's chosen Personalize Strategy unless
+   the user requests a change. Report missing, stale or ambiguous mappings.
+2. In **Channel Profile → Midjourney Style**, enable **Personalize/Moodboard**
+   and fill **Signature Code** and **Variation Codes** as applicable. Use bare
+   codes in these fields. A moodboard code is a `--p` parameter. Style
+   Reference (`--sref`) is a separate setting. Preserve unrelated settings.
+3. Apply a thumbnail code independently to **Combined → Thumbnail settings →
+   Midjourney** when that scope is requested. Check the installed Single/Batch
+   controls before writing. An existing Plan or recipe can already have its own
+   Midjourney settings. Use a supported override only when asked to change that
+   execution scope. Leave saved plans and active runs alone for profile-only work.
+4. Read back the affected collection settings and report what was applied or
+   remains pending. Reuse suitable codes across profiles when assignments agree.
+   Test the code with the intended Midjourney account when access is uncertain.
+   Profile updates require no paid generation.
+
 ## Titles and brief context
 
 Start with the requested title count; 50 titles per channel is a useful default,
