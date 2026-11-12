@@ -12,15 +12,27 @@ Membantu membuat Master baru, menyiapkan channel dan stok, mengkurasi referensi,
 membagi koleksi, serta menjalankan atau melanjutkan produksi melalui HDS.
 Lihat [kemampuan dan contoh perintah](skills/hds-home-production/references/capabilities.md).
 
+## YtFusion Domain and VPS
+
+Memeriksa domain dan koneksi VPS, memasang HTTPS, serta memindahkan alamat
+dashboard melalui **YouTube API Setup** dan **Server Transfer** di instalasi
+YtFusion. Lihat [instruksi skill](skills/ytfusion-domain-vps/SKILL.md).
+
+    Pakai $ytfusion-domain-vps untuk cek HTTPS dan koneksi Server Transfer VPS saya.
+    Cek status saja.
+
 ## Pasang
 
 Untuk Codex yang menyediakan skill-installer, gunakan permintaan:
 
     Gunakan skill-installer untuk memasang skill dari
-    https://github.com/kisanak22/ytfusion-skills/tree/main/skills/hds-home-production
+    https://github.com/kisanakclub/ytfusion-skills/tree/main/skills/hds-home-production
+
+    Gunakan skill-installer untuk memasang skill dari
+    https://github.com/kisanakclub/ytfusion-skills/tree/main/skills/ytfusion-domain-vps
 
 Untuk agen lain yang mendukung Agent Skills, pasang folder
-skills/hds-home-production pada lokasi skill yang didukung agen tersebut.
+skill yang ingin dipakai pada lokasi yang didukung agen tersebut.
 Cara pemasangan dan akses alat mengikuti dokumentasi agen masing-masing.
 Menyalin folder sumber ke lokasi biasa belum membuatnya otomatis aktif.
 
